@@ -8,9 +8,6 @@ nav {
 }
 
 .card.horizontal .card-image img {
-    max-width: 50%;
+    width: 50%;
 }
 
-.papa  {
-    margin-left: 4%;
-}

@@ -18,7 +18,7 @@ function initMap() {
 var lugares = [
     {
         "nombre": "Pizza del Perro Negro",
-        "coordenadas":  "{lat:19.417091, lng:-99.169670}",
+        "coordenadas":  {"lat":"19.417091", "lng":"-99.169670"},
         "direccion": "Parque España 3, Roma Nte., 06700 Ciudad de México, CDMX.",
         "numero":  "01 55 5351 7401",
         "logo": "assets/img/perronegro.png" 
@@ -26,7 +26,7 @@ var lugares = [
     
     {
         "nombre": "Mercado Roma",
-        "coordenadas":  "{lat:19.414133, lng:-99.164237}",
+        "coordenadas":  {"lat":"19.414133", "lng":"-99.164237"},
         "direccion": "Calle Querétaro 225, Roma Nte., 06700 Ciudad de México, CDMX.",
         "numero":  "01 55 5564 1396",
         "logo": "assets/img/mercadoroma.jpg" 
@@ -34,7 +34,7 @@ var lugares = [
     
     {
         "nombre": "Papa Guapa",
-        "coordenadas":  "{lat:19.419000, lng:-99.166930}",
+        "coordenadas":  {"lat":"19.419000", "lng":"-99.166930"},
         "direccion": "Av Oaxaca 80, Cuauhtemoc, Roma Norte, Roma Nte., 06700 Ciudad de México, CDMX.",
         "numero":  " 01 55 5207 8052",
         "logo": "assets/img/papaguapa.png" 
@@ -42,7 +42,7 @@ var lugares = [
     
     {
         "nombre": "Barracuda Diner",
-        "coordenadas":  "{lat:19.420042, lng:-99.166855}",
+        "coordenadas":  {"lat":"19.420042", "lng":"-99.166855"},
         "direccion": "Av Nuevo León 4-A, Condesa, Hipódromo, 06140 Cuauhtémoc, CDMX.",
         "numero":  "01 55 5211 9480",
         "logo": "assets/img/barracudadiner.jpg" 
@@ -50,7 +50,7 @@ var lugares = [
     
     {
         "nombre": "Helado Obscuro",
-        "coordenadas":  "{lat:19.412826, lng:-99.158488}",
+        "coordenadas":  {"lat":"19.412826", "lng":"-99.158488"},
         "direccion": "Orizaba 203, Roma Nte., 06700 Ciudad de México, CDMX.",
         "numero":  "01 55 4444 4878",
         "logo": "assets/img/heladoobscuro.jpg" 
