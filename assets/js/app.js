@@ -1,4 +1,4 @@
-
+// Funcionalidad mapa y marcador
 function initMap() {
   var coordenadas = {lat:19.4176387, lng:-99.16481529999999};
 
@@ -14,7 +14,7 @@ function initMap() {
   });
 }
 
-
+// Funcionalidad lugares 
 var lugares = [
     {
         "nombre": "Pizza del Perro Negro",
@@ -85,9 +85,22 @@ var crearTarjetas = function (lugares) {
 	$(".listaDeRestaurantes").html(plantillaFinal);
 };
 
+
+var filtrarRestaurantes = function (e) {
+	e.preventDefault();
+	var criterioBusqueda = $("#search").val().toLowerCase();
+	var restaurantesFiltrados = lugares.filter(function (restaurante) {
+		return restaurante.nombre.toLowerCase().indexOf(criterioBusqueda) >= 0;
+	});
+	crearTarjetas(restaurantesFiltrados);
+};
+
+
 var cargarPagina = function () {
     
    crearTarjetas(lugares); 
+   $("#search-form").submit(filtrarRestaurantes);
 }
+
 
 $(document).ready(cargarPagina);
