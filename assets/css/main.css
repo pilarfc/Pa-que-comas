@@ -1,0 +1,16 @@
+nav {
+    background-color: #088A29;
+}
+
+#mapa {
+    width: 100%;
+    height: 400px; 
+}
+
+.card.horizontal .card-image img {
+    max-width: 50%;
+}
+
+.papa  {
+    margin-left: 4%;
+}
