@@ -142,13 +142,27 @@ var cargarPagina = function () {
    obtenerUbicacionActual();
    $("#search-form").keyup(filtrarRestaurantes); // Aquí cambiamos el evento submit por keyup para hacer que la barra de busqueda sea predictiva. 
    $(".restaurante").click(cambiarUbicacion);
+    // Función para el modal
+   $(".modal").modal();
 }
 
 
-// Función para el modal
 
-  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-  $('.modal').modal();
+// Objeto pero no está finalizado
 
+var Lugar= function ($nombre, $telefono, $direccion) {
+    
+    var $inputNombre = $(".textoNombre");
+    var $nombre = $inputNombre.val(); 
+    var $inputTelefono = $(".textoTelefono"); 
+    var $telefono = $inputTelefono.val();
+    var $inputDireccion = $(".textoDireccion"); 
+    var $direccion = $inputDireccion.val();
+    
+    this.$nombre = $inputNombre.val(); 
+    this.$telefono = $inputTelefono.val(); 
+    this.$direccion = $inputDireccion.val(); 
+
+}
 
 $(document).ready(cargarPagina);
