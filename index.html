@@ -51,9 +51,48 @@
       
     <!-- FINALIZAN LUGARES -->
            
+           
      <!-- AGREGAR RESTAURANTES -->         
-    <a class="btn-floating btn-large waves-effect waves-light red right"><i class="material-icons">add</i></a>
+    <a class="btn-floating btn-large waves-effect waves-light red right" href="#modal1"><i class="material-icons">add</i></a>
      <!-- ....... --> 
+     
+     
+      <!-- INICIA MODAL -->
+
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="close material-icons modal-close right">close</i>
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="icon_prefix" type="text" class="validate textoNombre">
+                  <label for="icon_prefix">Nombre del Lugar</label>
+                  </div>
+                </div>
+                <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">phone</i>
+                  <input id="icon_telephone" type="tel" class="validate textoTelefono">
+                  <label for="icon_telephone">Teléfono</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">location_on</i>
+                  <input id="icon_telephone" type="tel" class="validate textoTelefono">
+                  <label for="icon_telephone">Dirección</label>
+                </div>
+              </div>
+            </form>
+          </div>  
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" id="boton-agregar">Agregar</a>
+        </div>
+      </div>
+       <!-- FINALIZA MODAL -->
     
     
     
