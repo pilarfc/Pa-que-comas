@@ -10,3 +10,7 @@ nav {
 .card.horizontal .card-image img {
     width: 50%;
 }
+
+.cursor {
+    cursor: pointer;
+}
