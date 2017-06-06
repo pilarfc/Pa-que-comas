@@ -140,7 +140,7 @@ var cargarPagina = function () {
     
    crearTarjetas(lugares); 
    obtenerUbicacionActual();
-   $("#search-form").submit(filtrarRestaurantes);
+   $("#search-form").keyup(filtrarRestaurantes); // Aquí cambiamos el evento submit por keyup para hacer que la barra de busqueda sea predictiva. 
    $(".restaurante").click(cambiarUbicacion);
 }
 
